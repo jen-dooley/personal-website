@@ -70,7 +70,7 @@
                 :project="project"
               ></project-card>
             </div>
-            <div class="prose max-w-none my-12">
+            <div class="prose max-w-none mt-12 mb-24">
               <h2>More About Me</h2>
               <p>
                 I love spending time outdoors. Over the years I've
