@@ -12,12 +12,12 @@
       ></div>
       <!-- Profile Card -->
       <div
-        class="relative flex flex-col z-20 w-full h-full bg-white shadow-2xl rounded"
+        class="relative flex flex-col z-20 w-full min-h-full sm:h-full bg-white shadow-2xl rounded"
       >
         <!-- Header -->
         <profile-header></profile-header>
         <!-- Body -->
-        <div class="flex-1 py-4 overflow-hidden">
+        <div class="flex-1 py-4 sm:overflow-hidden">
           <div class="h-full px-4 overflow-auto lg:px-12">
             <div class="prose max-w-none">
               <h2>Welcome!</h2>
