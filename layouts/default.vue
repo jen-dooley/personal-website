@@ -34,18 +34,27 @@ export default {
   methods: {
     randomizeClass() {
       const index = Math.floor(Math.random() * 3);
-      const opacities = ['opacity-75', 'opacity-25', 'opacity-50'];
-      const sizes = ['h-1', 'h-2', 'h-3'];
-      const colors = [
-        'text-yellow-200',
-        'text-yellow-300',
-        'text-green-200',
-        'text-blue-200',
-      ];
 
-      return `${sizes[index]} ${opacities[index]} ${
-        colors[Math.floor(Math.random() * 4)]
-      }`;
+      const colors = {
+        1: ['text-green-200', 'text-blue-200', 'text-yellow-200'],
+        2: ['text-green-300', 'text-blue-300', 'text-yellow-300'],
+        3: ['text-green-400', 'text-blue-400', 'text-yellow-400'],
+      };
+
+      switch (index) {
+        case 0:
+          return `h-1 opacity-75 ${
+            colors[1][Math.floor(Math.random() * 3)]
+          }`;
+        case 1:
+          return `h-2 opacity-25 ${
+            colors[2][Math.floor(Math.random() * 3)]
+          }`;
+        case 2:
+          return `h-3 opacity-50 ${
+            colors[3][Math.floor(Math.random() * 3)]
+          }`;
+      }
     },
     randomizeLocation() {
       return {
