@@ -1,5 +1,7 @@
 # personal-website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e151aa83-7e37-4baf-a7c6-91a142e25ec6/deploy-status)](https://app.netlify.com/sites/hungry-poincare-abdd44/deploys)
+
 ## Build Setup
 
 ```bash
