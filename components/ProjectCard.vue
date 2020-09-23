@@ -7,12 +7,12 @@
     <div class="md:flex">
       <div class="md:w-1/2 md:pt-12 md:pr-0 md:pl-8">
         <a
-          class="block relative wiggle"
+          class="block relative wiggle -mt-2 mt-md-0"
           :href="project.link"
           style="padding-top: 60%"
         >
           <img
-            class="pin absolute block h-full w-full object-cover object-top rounded shadow-lg-dark"
+            class="pin absolute block h-full w-full object-cover object-top md:rounded shadow-lg-dark"
             :src="project.imageUrl"
             :alt="project.imageAlt"
           />

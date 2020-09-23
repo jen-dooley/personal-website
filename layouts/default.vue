@@ -17,7 +17,7 @@
       ></sparkles>
     </div>
     <Nuxt
-      class="antialiased text-grey-900 flex items-center justify-center w-screen h-screen md:py-16"
+      class="antialiased text-grey-900 flex items-center justify-center w-screen h-screen lg:py-16"
     />
   </div>
 </template>
