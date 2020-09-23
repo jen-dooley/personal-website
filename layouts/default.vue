@@ -37,7 +37,6 @@ export default {
       const opacities = ['opacity-75', 'opacity-25', 'opacity-50'];
       const sizes = ['h-1', 'h-2', 'h-3'];
       const colors = [
-        'text-yellow-100',
         'text-yellow-200',
         'text-yellow-300',
         'text-green-200',
@@ -45,7 +44,7 @@ export default {
       ];
 
       return `${sizes[index]} ${opacities[index]} ${
-        colors[Math.floor(Math.random() * 5)]
+        colors[Math.floor(Math.random() * 4)]
       }`;
     },
     randomizeLocation() {
