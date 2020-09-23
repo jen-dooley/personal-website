@@ -27,7 +27,12 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || '',
+        content:
+          'I am a Frontend Vue Engineer and Entrepreneur from Boulder, CO.',
+      },
+      {
+        property: 'og:image',
+        content: '/og-thumbnail.png',
       },
     ],
     link: [
