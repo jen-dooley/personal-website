@@ -4,17 +4,17 @@
   >
     <div
       class="absolute px-1 h-8 w-32 text-center font-semibold"
-      :class="`bg-${skill.color}-600`"
+      :class="`bg-purple-600`"
     >
       {{ skill.title }}
     </div>
     <div
-      :class="`bg-${skill.color}-300`"
+      :class="`bg-purple-300`"
       :style="{ width: `${skill.proficiency}%` }"
     ></div>
     <div
       class="hidden md:block absolute right-0 pr-3 h-8 font-light"
-      :class="`text-${skill.color}-900`"
+      :class="`text-purple-900`"
     >
       {{ skill.proficiency }}%
     </div>

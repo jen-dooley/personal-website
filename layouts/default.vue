@@ -33,13 +33,20 @@ export default {
   },
   methods: {
     randomizeClass() {
-      const size = Math.floor(Math.random() * 3);
+      const index = Math.floor(Math.random() * 3);
       const opacities = ['opacity-75', 'opacity-25', 'opacity-50'];
-      const colors = ['green', 'blue', 'yellow'];
+      const sizes = ['h-1', 'h-2', 'h-3'];
+      const colors = [
+        'text-yellow-100',
+        'text-yellow-200',
+        'text-yellow-300',
+        'text-green-200',
+        'text-blue-200',
+      ];
 
-      return `h-${size + 1} ${opacities[size]} text-${colors[size]}-${
-        size + 2
-      }00`;
+      return `${sizes[index]} ${opacities[index]} ${
+        colors[Math.floor(Math.random() * 5)]
+      }`;
     },
     randomizeLocation() {
       return {

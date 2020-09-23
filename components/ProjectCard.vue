@@ -1,7 +1,7 @@
 <template>
   <div
     class="rounded overflow-hidden mt-6 shadow bg-gradient-to-br"
-    :class="`from-${project.color}-300 via-${project.color}-600 to-${project.color}-800`"
+    :class="gradiantClasses"
   >
     <!--  -->
     <div class="md:flex">
@@ -44,6 +44,15 @@ export default {
     project: {
       type: Object,
       required: true,
+    },
+  },
+  computed: {
+    gradiantClasses() {
+      if (this.project.color === 'purple') {
+        return `from-purple-300 via-purple-600 to-purple-800`;
+      } else {
+        return `from-green-300 via-green-600 to-green-800`;
+      }
     },
   },
 };
