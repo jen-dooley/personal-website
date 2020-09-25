@@ -57,10 +57,10 @@
                   class="text-lg font-semibold focus:outline-none focus:bg-green-200 hover:bg-green-200 rounded p-1"
                   >Illumination Foundry</a
                 >
-                to provide professional, web-application services to
-                small businesses, clubs and non-profits. Since then we
-                have worked with companies to create marketing
-                websites, analytic dashboards and full CRMs.
+                to provide professional web-application services to
+                small businesses, clubs, and non-profits. Since then
+                we have worked with companies to create marketing
+                websites, analytic dashboards, and full CRMs.
               </p>
             </div>
             <div class="max-w-none">
@@ -74,13 +74,13 @@
               <h2>More About Me</h2>
               <p>
                 I love spending time outdoors. Over the years I've
-                collected outdoor hobbies such as hiking, camping,
-                snowboarding, horseback riding, paintball, disk golf
+                enjoyed outdoor hobbies, such as hiking, camping,
+                snowboarding, horseback riding, paintball, disk golf,
                 and beer league kickball. 😊
               </p>
               <p>
-                If you'd like to work together or have any questions
-                feel free to shoot me an email!
+                If you'd like to work together or have any questions,
+                please feel free to shoot me an email!
               </p>
             </div>
           </div>
@@ -144,12 +144,11 @@ export default {
         {
           title: 'Colorado Wedding Productions',
           description:
-            'A fullstack web application and integrated marketing website for a local wedding production company. The application covers client management, paperwork completion and invoicing. Built using Laravel',
+            'A fullstack web application and integrated marketing website for a local wedding production company. The application covers client management, paperwork completion, and invoicing. Built using Laravel.',
           link: 'https://coloradoweddingproductions.com/',
           imageUrl: 'cwp.png',
           imageAlt: 'Colorado Wedding Productions',
-          color: 'green', // #2e8556bf
-          colorSec: 'purple',
+          color: 'green',
         },
         {
           title: 'Strabo Partners',
@@ -158,8 +157,7 @@ export default {
           link: 'https://strabo.partners/',
           imageUrl: 'strabo.png',
           imageAlt: 'Strabo Partners',
-          color: 'purple', // #533ea8bf
-          colorSec: 'green',
+          color: 'purple',
         },
         // {
         //   title: 'TrainingBeta Application',
