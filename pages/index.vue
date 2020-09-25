@@ -23,10 +23,9 @@
               <h2>Welcome!</h2>
               <p>
                 My name is Jen Dooley. I'm a Frontend Engineer and
-                Entrepreneur from Boulder, CO. I am an engineering
-                professional with a Bachelor of Science (B.S.) focused
-                in Computer Science from University of Colorado
-                Boulder.
+                Entrepreneur from Boulder, CO and I have a Computer
+                Science engineering degree (B.S.) University of
+                Colorado Boulder.
               </p>
               <h2>Languages and Frameworks</h2>
               <p>
@@ -57,10 +56,11 @@
                   class="text-lg font-semibold focus:outline-none focus:bg-green-200 hover:bg-green-200 rounded p-1"
                   >Illumination Foundry</a
                 >
-                to provide professional web-application services to
-                small businesses, clubs, and non-profits. Since then
-                we have worked with companies to create marketing
-                websites, analytic dashboards, and full CRMs.
+                with a couple of partners to provide professional
+                web-application services to small businesses, clubs,
+                and non-profits. Since then we have worked with
+                companies to create marketing websites, analytic
+                dashboards, and full CRMs.
               </p>
             </div>
             <div class="max-w-none">
@@ -73,7 +73,7 @@
             <div class="prose max-w-none mt-12 mb-24">
               <h2>More About Me</h2>
               <p>
-                I love spending time outdoors. Over the years I've
+                I love spending time outside. Over the years I've
                 enjoyed outdoor hobbies, such as hiking, camping,
                 snowboarding, horseback riding, paintball, disk golf,
                 and beer league kickball. 😊
