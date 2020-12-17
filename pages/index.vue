@@ -159,13 +159,14 @@ export default {
           imageAlt: 'Strabo Partners',
           color: 'purple',
         },
-        // {
-        //   title: 'TrainingBeta Application',
-        //   description: 'Vue.js & Laravel',
-        //   link: null,
-        //   imageUrl: 'training-beta.png',
-        //   imageAlt: 'TrainingBeta Application',
-        // },
+        {
+          title: 'TrainingBeta Programs',
+          description:
+            'A web application for a rock climbing couching company. The applications is used for their clients to view and track their progress on programs. Built using Vue.js & Laravel',
+          link: 'https://programs.trainingbeta.com',
+          imageUrl: 'training-beta.png',
+          imageAlt: 'TrainingBeta Application',
+        },
       ],
     };
   },
