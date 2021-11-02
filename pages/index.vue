@@ -30,10 +30,10 @@
               <h2>Languages and Frameworks</h2>
               <p>
                 I specialize in the Vue.js ecosystem but I have
-                experience with other frameworks such as Laravel and
-                React.js as well. I have worked with many of the most
-                competative CSS design frameworks such as Bootstrap 4,
-                TailwindCSS and Vuetify.
+                previous experience working Fullstack. I have worked
+                with many of the most competitive CSS design
+                frameworks such as Vuetify, TailwindCSS and Bootstrap
+                4.
               </p>
               <skill
                 v-for="skill in skillz"
@@ -43,8 +43,8 @@
               ></skill>
               <p>
                 I am always working towards improving my skills and
-                learning new things; I recently learned React and
-                TailwindCSS.
+                learning new things; I recently learned TailwindCSS,
+                Typescript and D3.
               </p>
               <h2>Portfolio</h2>
               <p>
@@ -61,6 +61,18 @@
                 and non-profits. Since then we have worked with
                 companies to create marketing websites, analytic
                 dashboards, and full CRMs.
+              </p>
+              <p>
+                Below you can find a few of the projects we have
+                worked on over the years as well as a project I had
+                the opportunity to work on while working with
+                <a
+                  href="https://powerspike.tv/"
+                  target="_blank"
+                  rel="noopener"
+                  class="text-lg font-semibold focus:outline-none focus:bg-green-200 hover:bg-green-200 rounded p-1"
+                  >Powerspike Inc</a
+                >.
               </p>
             </div>
             <div class="max-w-none">
@@ -105,38 +117,33 @@ export default {
     return {
       skillz: [
         {
+          title: 'Vue 2',
+          proficiency: 95,
+          color: 'purple',
+        },
+        {
           title: 'HTML',
           proficiency: 90,
           color: 'purple',
         },
         {
           title: 'CSS',
-          proficiency: 85,
-          color: 'purple',
-        },
-        {
-          title: 'Javascript',
-          proficiency: 80,
-          color: 'purple',
-        },
-        {
-          title: 'Vue',
           proficiency: 90,
           color: 'purple',
         },
         {
-          title: 'React',
+          title: 'Javascript',
+          proficiency: 90,
+          color: 'purple',
+        },
+        {
+          title: 'Typescript',
           proficiency: 75,
           color: 'purple',
         },
         {
-          title: 'Laravel',
-          proficiency: 70,
-          color: 'purple',
-        },
-        {
           title: 'UI Design',
-          proficiency: 55,
+          proficiency: 65,
           color: 'purple',
         },
       ],
@@ -162,10 +169,19 @@ export default {
         {
           title: 'TrainingBeta Programs',
           description:
-            'A web application for a rock climbing couching company. The applications is used for their clients to view and track their progress on programs. Built using Vue.js & Laravel',
+            'A web application for a rock climbing couching company. The applications is used for their clients to view and track their progress on programs. Built using Vue.js & Laravel.',
           link: 'https://programs.trainingbeta.com',
           imageUrl: 'training-beta.png',
           imageAlt: 'TrainingBeta Application',
+        },
+        {
+          title: 'Powerspike Application',
+          description:
+            'A Client facing application for Brands to create and manage campaigns and for Influencers to complete sponsorship tasks. Application updated and expanded while I worked at Powerspike Inc. Built using Vue.js and Typescript.',
+          link: 'https://app.powerspike.tv/',
+          imageUrl: 'powerspike.png',
+          imageAlt: 'Powerspike Inc Application',
+          color: 'purple',
         },
       ],
     };

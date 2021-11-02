@@ -23,7 +23,7 @@
               href="https://github.com/stattikrose"
               target="_blank"
               rel="noopener"
-              class="inline-flex items-center px-1 space-x-2 border-green-700 rounded focus:outline-none focus:shadow-outline-green focus:bg-green-200 hover:shadow-outline-green hover:bg-green-200"
+              class="inline-flex items-center px-1 space-x-2 border-green-700 rounded focus:outline-none focus:bg-green-200 hover:bg-green-200"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@
               href="https://www.linkedin.com/in/jenniferdooley27/"
               target="_blank"
               rel="noopener"
-              class="inline-flex items-center px-1 space-x-2 border-green-700 rounded focus:outline-none focus:shadow-outline-green focus:bg-green-200 hover:shadow-outline-green hover:bg-green-200"
+              class="inline-flex items-center px-1 space-x-2 border-green-700 rounded focus:outline-none focus:bg-green-200 hover:bg-green-200"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -60,8 +60,8 @@
           </div>
           <div class="inline-flex px-3">
             <a
-              href="mailto:jen.dooley@hey.com"
-              class="inline-flex items-center px-1 space-x-2 border-green-700 rounded focus:outline-none focus:shadow-outline-green focus:bg-green-200 hover:shadow-outline-green hover:bg-green-200"
+              href="mailto:jenn.dooley.27@gmail.com"
+              class="inline-flex items-center px-1 space-x-2 border-green-700 rounded focus:outline-none focus:bg-green-200 hover:bg-green-200"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -90,10 +90,3 @@
     </div>
   </div>
 </template>
-
-<style scoped>
-.shadow-outline-green:focus,
-.shadow-outline-green:hover {
-  box-shadow: 0 0 0 3px rgba(248, 180, 217, 0.45);
-}
-</style>
