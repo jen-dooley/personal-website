@@ -20,7 +20,7 @@
         <div class="-mx-3 divide-x text-lg divide-indigo-900">
           <div class="inline-flex px-3">
             <a
-              href="https://github.com/stattikrose"
+              href="https://github.com/jen-dooley"
               target="_blank"
               rel="noopener"
               class="inline-flex items-center px-1 space-x-2 border-green-700 rounded focus:outline-none focus:bg-green-200 hover:bg-green-200"
